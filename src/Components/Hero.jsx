@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import img from '../assets/Printer 1.jpg'
 
 const Hero = () => {        
     return (
