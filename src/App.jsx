@@ -1,20 +1,15 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import PreNavBar from './Components/PreNavBar.jsx'
-import Navbar from './Components/Navbar.jsx'
-import Hero from './Components/Hero.jsx'
-import Product from './Components/Product.jsx'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import Products from './pages/Products';
 
 function App() {
 
   return (
     <>
-      <PreNavBar/>
-      <Navbar/>
-      <Hero/>
-      <Product/>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/products" element={<Products />} />
+      </Routes>
     </>
   )
 }
