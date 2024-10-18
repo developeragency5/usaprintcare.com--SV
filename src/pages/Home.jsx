@@ -3,7 +3,7 @@ import PreNavBar from '../Components/PreNavBar';
 import Navbar from '../Components/Navbar';
 import Hero from '../Components/Hero';
 import Services from '../Components/Services'; 
-import Faq from '../Components/Faq'; 
+import Faq from '../Components/FAQ'; 
 import Testimonial from '../Components/Testimonial';
 import Support from '../Components/Support';
 import Footer from '../Components/Footer'

@@ -2,8 +2,8 @@ import React from 'react';
 import officeEquipImage from '../assets/officequip.jpg';
 import printerServiceImage from '../assets/printerservice.jpg';
 import managedImage from '../assets/managedimage.jpg';
-import testimonialBg from '../assets/IMG_0372.jpg'; // Add your testimonial background image
-import contactBg from '../assets/IMG_0372.jpg'; // Add your contact background image
+import testimonialBg from '../assets/IMG_0372.jpg'; // Testimonial background image
+import contactBg from '../assets/IMG_0372.jpg'; // Contact background image
 
 // Card component
 const OfficeEquipmentCard = ({ imageSrc, heading, subheading, paragraph, reverse }) => {
@@ -46,7 +46,7 @@ const OfficeEquipmentCard = ({ imageSrc, heading, subheading, paragraph, reverse
 const TestimonialBanner = () => {
   return (
     <div
-      className="relative bg-cover bg-center h-64 flex items-center justify-center"
+      className="relative bg-cover bg-center w-full h-64 flex items-center justify-center" // Use w-full for full width
       style={{ backgroundImage: `url(${testimonialBg})` }}
     >
       <div className="absolute inset-0 bg-black bg-opacity-50"></div>
@@ -62,7 +62,7 @@ const TestimonialBanner = () => {
 const ContactMeBanner = () => {
   return (
     <div
-      className="relative bg-cover bg-center h-64 flex items-center justify-center"
+      className="relative bg-cover bg-center w-full h-64 flex items-center justify-center" // Use w-full for full width
       style={{ backgroundImage: `url(${contactBg})` }}
     >
       <div className="absolute inset-0 bg-black bg-opacity-50"></div>
@@ -81,7 +81,7 @@ const ContactMeBanner = () => {
 const App = () => {
   return (
     <div className="p-8 space-y-20">
-      {/* First Card - Image Left */}
+      {/* First Card - Office Equipment */}
       <OfficeEquipmentCard
         imageSrc={officeEquipImage}
         heading="Office"
@@ -89,7 +89,10 @@ const App = () => {
         paragraph="New Sharp and Xerox copiers and MFPs at competitive prices"
       />
 
-      {/* Second Card - Image Right */}
+      {/* Testimonial Banner */}
+      <TestimonialBanner />
+
+      {/* Second Card - Printer Service */}
       <OfficeEquipmentCard
         imageSrc={printerServiceImage}
         heading="Printer"
@@ -98,19 +101,16 @@ const App = () => {
         reverse={true}
       />
 
-      {/* Third Card - Image Left */}
+      {/* Contact Me Banner */}
+      <ContactMeBanner />
+
+      {/* Third Card - Managed Print Solutions */}
       <OfficeEquipmentCard
         imageSrc={managedImage}
         heading="Managed"
         subheading="Print Solutions"
         paragraph="Customized print solutions with 24/7 support and professional services"
       />
-
-      {/* Testimonial Banner */}
-      <TestimonialBanner />
-
-      {/* Contact Me Banner */}
-      <ContactMeBanner />
     </div>
   );
 };
