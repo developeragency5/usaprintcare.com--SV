@@ -1,22 +1,21 @@
-import React from 'react'
-import PreNavBar from '../Components/PreNavBar'
-import Navbar from '../Components/Navbar'
-import Footer from '../Components/Footer'
+import React from 'react';
+import PreNavBar from '../Components/PreNavBar';
+import Navbar from '../Components/Navbar';
 
-const Products = () => {
+const Office = () => {
   return (
     <div>
-      <PreNavBar/>
-      <Navbar/>
+      <PreNavBar />
+      <Navbar />
       <div className="flex flex-col items-center justify-center w-[80%] mx-auto mt-16"> {/* Center the content and add margin */}
         <h1 className="text-4xl font-bold text-gray-900 uppercase">OUR</h1>
-        <h1 className="text-4xl font-bold text-[#0075B1] uppercase mb-6">PRODUCTS</h1>
+        <h1 className="text-4xl font-bold text-[#0075B1] uppercase mb-6">SERVICES</h1>
       </div>
       <div>
       <section className="py-12 bg-white sm:py-16 lg:py-20">
     <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
         <div className="max-w-md mx-auto text-center">
-            
+            <h2 className="text-2xl font-bold text-gray-900 sm:text-3xl">Our featured items</h2>
             <p className="mt-4 text-base font-normal leading-7 text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus faucibus massa dignissim tempus.</p>
         </div>
 
@@ -219,9 +218,8 @@ const Products = () => {
     </div>
 </section>
       </div>
-      <Footer/>
     </div>
-  )
-}
+  );
+};
 
-export default Products
+export default Office;

@@ -15,13 +15,13 @@ const HeroSection = () => {
 
             {/* Content overlaid on top of the background image */}
             <div className="relative flex flex-col items-start justify-center h-full px-6 sm:px-12 md:px-20 text-white"> {/* Responsive padding */}
-                <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold mb-6">USAPRINT</h1> {/* Responsive font size */}
-                <p className="text-lg sm:text-xl md:text-2xl mb-10 max-w-lg">
+                <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold mb-6 text-center">USAPRINT</h1> {/* Responsive font size and center alignment */}
+                <p className="text-lg sm:text-xl md:text-2xl mb-10 max-w-lg text-center">
                     Dedicated to lowering the cost of printer ownership by providing quality toner cartridges and office equipment with fast, reliable service and support.
                 </p> {/* Responsive font size */}
                 
                 {/* Flex column on smaller screens */}
-                <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-8">
+                <div className="flex flex-col sm:flex-row sm:justify-center space-y-4 sm:space-y-0 sm:space-x-8 895:flex-col"> {/* Adjusted for custom breakpoint */}
                     {/* Clickable button without shadow */}
                     <button
                         onClick={() => navigate('/office-equipment')}
