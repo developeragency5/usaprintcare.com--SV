@@ -10,11 +10,11 @@ const Office = () => {
       <Navbar />
       <section className="bg-white text-center py-16">
         <div className="container mx-auto px-4">
-          {/* Top Text */}
-          <h2 className="text-3xl font-bold mb-4">WE'LL FIX IT.</h2>
-          <p className="text-lg text-gray-600 mb-8">
-            We help businesses focus on their business, not their printers.
-          </p>
+          {/* Page Title */}
+      <div className="flex flex-col items-center justify-center w-[80%] mx-auto mt-16">
+        <h1 className="text-4xl font-bold text-gray-900 uppercase">Our</h1>
+        <h1 className="text-4xl font-bold text-[#0075B1] uppercase mb-6">Services</h1>
+      </div>
 
           {/* Paragraph Section */}
           <p className="text-gray-500 max-w-2xl mx-auto mb-12">

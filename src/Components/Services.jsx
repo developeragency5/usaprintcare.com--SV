@@ -7,11 +7,11 @@ import testimonialBg from '../assets/IMG_0372.jpg'; // Testimonial background im
 import contactBg from '../assets/6098365076965802901.jpg'; // Contact background image
 
 // Card component
-const OfficeEquipmentCard = ({ imageSrc, heading, subheading, paragraph, route }) => {
+const OfficeEquipmentCard = ({ imageSrc, heading, subheading, paragraph, route, reverse }) => {
   const navigate = useNavigate(); // Use the useNavigate hook for navigation
 
   return (
-    <div className="flex flex-col md:flex-row items-center bg-white p-8 max-w-6xl mx-auto">
+    <div className={`flex flex-col ${reverse ? 'md:flex-row-reverse' : 'md:flex-row'} items-center bg-white p-8 max-w-6xl mx-auto`}>
       {/* Image Section */}
       <div className="w-full md:w-1/2 mb-4 md:mb-0">
         <img className="w-full h-full object-cover rounded-lg" src={imageSrc} alt={heading} />
@@ -54,6 +54,8 @@ const TestimonialBanner = () => {
 
 // Contact Me Banner Component
 const ContactMeBanner = () => {
+  const navigate = useNavigate(); // Use useNavigate for routing
+
   return (
     <div
       className="relative bg-cover bg-center w-full h-64 flex items-center justify-center"
@@ -96,7 +98,7 @@ const App = () => {
         subheading="Service"
         paragraph="Top-notch printers and software at affordable prices"
         route="/printer-service" // Define the route for this card
-        reverse={true} // Reverse prop is included but not used; can be ignored if not needed
+        reverse={true} // Now this prop is used to reverse the layout
       />
 
       {/* Contact Me Banner */}

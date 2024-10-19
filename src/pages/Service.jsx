@@ -18,54 +18,48 @@ const Services = () => {
 
       {/* Grid with 6 service cards */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-[80%] mx-auto my-10">
-        <div className="flex items-center p-6 border rounded-lg shadow-sm">
-          <WrenchIcon className="w-12 h-12 text-[#0075B1]" />
-          <div className="ml-4">
-            <h3 className="text-lg font-bold">Comprehensive Printer Repair</h3>
-            <p>Fast and reliable repair services for all major printer brands.</p>
-          </div>
-        </div>
-
-        <div className="flex items-center p-6 border rounded-lg shadow-sm">
-          <ShieldCheckIcon className="w-12 h-12 text-[#0075B1]" />
-          <div className="ml-4">
-            <h3 className="text-lg font-bold">Managed Print Services (MPS)</h3>
-            <p>We handle all aspects of your printer fleet, from supplies to troubleshooting.</p>
-          </div>
-        </div>
-
-        <div className="flex items-center p-6 border rounded-lg shadow-sm">
-          <CogIcon className="w-12 h-12 text-[#0075B1]" />
-          <div className="ml-4">
-            <h3 className="text-lg font-bold">Printer Installation & Setup</h3>
-            <p>Expert setup and configuration of network printers, wireless printing, and more.</p>
-          </div>
-        </div>
-
-        <div className="flex items-center p-6 border rounded-lg shadow-sm">
-          <UserGroupIcon className="w-12 h-12 text-[#0075B1]" />
-          <div className="ml-4">
-            <h3 className="text-lg font-bold">Customer Support</h3>
-            <p>24/7 support for printer issues, with quick response times.</p>
-          </div>
-        </div>
-
-        <div className="flex items-center p-6 border rounded-lg shadow-sm">
-          <CubeTransparentIcon className="w-12 h-12 text-[#0075B1]" />
-          <div className="ml-4">
-            <h3 className="text-lg font-bold">Printer Supply Management</h3>
-            <p>We ensure that your printer never runs out of toner or ink.</p>
-          </div>
-        </div>
-
-        <div className="flex items-center p-6 border rounded-lg shadow-sm">
-          <ShieldCheckIcon className="w-12 h-12 text-[#0075B1]" />
-          <div className="ml-4">
-            <h3 className="text-lg font-bold">Fleet Management</h3>
-            <p>Centralized management of your printer fleet for efficiency and savings.</p>
-          </div>
-        </div>
+        <ServiceCard 
+          icon={<WrenchIcon className="w-12 h-12 text-[#0075B1]" />}
+          title="Comprehensive Printer Repair"
+          description="Fast and reliable repair services for all major printer brands."
+        />
+        <ServiceCard 
+          icon={<ShieldCheckIcon className="w-12 h-12 text-[#0075B1]" />}
+          title="Managed Print Services (MPS)"
+          description="We handle all aspects of your printer fleet, from supplies to troubleshooting."
+        />
+        <ServiceCard 
+          icon={<CogIcon className="w-12 h-12 text-[#0075B1]" />}
+          title="Printer Installation & Setup"
+          description="Expert setup and configuration of network printers, wireless printing, and more."
+        />
+        <ServiceCard 
+          icon={<UserGroupIcon className="w-12 h-12 text-[#0075B1]" />}
+          title="Customer Support"
+          description="24/7 support for printer issues, with quick response times."
+        />
+        <ServiceCard 
+          icon={<CubeTransparentIcon className="w-12 h-12 text-[#0075B1]" />}
+          title="Printer Supply Management"
+          description="We ensure that your printer never runs out of toner or ink."
+        />
+        <ServiceCard 
+          icon={<ShieldCheckIcon className="w-12 h-12 text-[#0075B1]" />}
+          title="Fleet Management"
+          description="Centralized management of your printer fleet for efficiency and savings."
+        />
       </div>
+
+      {/* Additional Section: Our Expertise */}
+      <section className="bg-gray-100 p-10 my-10 rounded-lg shadow-md w-[80%] mx-auto">
+        <h2 className="text-3xl font-bold text-gray-900 mb-6 text-center">Our Expertise</h2>
+        <p className="text-gray-700 mb-4">
+          At US Laser, Inc., we specialize in providing comprehensive printing solutions tailored to meet the needs of businesses of all sizes. With over two decades of experience, we have built a reputation for excellence in printer repair, supply management, and customer support.
+        </p>
+        <p className="text-gray-700 mb-4">
+          Our team consists of highly skilled technicians who are dedicated to ensuring your printers operate smoothly and efficiently. We are committed to delivering exceptional service and support to our clients, making sure their printing operations are never interrupted.
+        </p>
+      </section>
 
       {/* Call to Action */}
       <div className="flex flex-col items-center justify-center w-[80%] mx-auto my-10">
@@ -80,5 +74,16 @@ const Services = () => {
     </div>
   );
 };
+
+// Service Card Component
+const ServiceCard = ({ icon, title, description }) => (
+  <div className="flex items-center p-6 border rounded-lg shadow-sm hover:shadow-lg transition">
+    {icon}
+    <div className="ml-4">
+      <h3 className="text-lg font-bold text-gray-900">{title}</h3>
+      <p className="text-gray-600">{description}</p>
+    </div>
+  </div>
+);
 
 export default Services;

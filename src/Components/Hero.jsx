@@ -7,44 +7,44 @@ const HeroSection = () => {
 
     return (
         <div
-            className="relative bg-cover bg-center h-[80vh]" // Set height to 80% of the viewport height
+            className="relative bg-cover bg-center h-screen sm:h-[80vh]" // Set height to full on small screens, 80% on larger screens
             style={{ backgroundImage: `url(${bg})` }} // Correctly format the background image
         >
             {/* Overlay for darkening the background image */}
-            <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+            <div className="absolute inset-0 bg-black bg-opacity-55"></div> {/* Increased opacity for better contrast */}
 
             {/* Content overlaid on top of the background image */}
-            <div className="relative flex flex-col items-start justify-center h-full px-6 sm:px-12 md:px-20 text-white"> {/* Responsive padding */}
-                <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold mb-6 text-center">USAPRINT</h1> {/* Responsive font size and center alignment */}
-                <p className="text-lg sm:text-xl md:text-2xl mb-10 max-w-lg text-center">
+            <div className="relative flex flex-col items-center justify-center h-full px-6 sm:px-12 md:px-20 text-white"> {/* Center items and responsive padding */}
+                <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-4 text-center shadow-md">USAPRINT</h1> {/* Added text shadow */}
+                <p className="text-base sm:text-lg md:text-xl lg:text-2xl mb-8 max-w-lg text-center shadow-md">
                     Dedicated to lowering the cost of printer ownership by providing quality toner cartridges and office equipment with fast, reliable service and support.
-                </p> {/* Responsive font size */}
+                </p> {/* Added text shadow */}
                 
                 {/* Flex column on smaller screens */}
-                <div className="flex flex-col sm:flex-row sm:justify-center space-y-4 sm:space-y-0 sm:space-x-8 895:flex-col"> {/* Adjusted for custom breakpoint */}
+                <div className="flex flex-col sm:flex-row sm:justify-center space-y-4 sm:space-y-0 sm:space-x-8"> {/* Responsive layout */}
                     {/* Clickable button without shadow */}
                     <button
                         onClick={() => navigate('/office-equipment')}
-                        className="relative text-center py-4 px-6 bg-white bg-opacity-20 rounded-lg hover:bg-opacity-30 hover:scale-105 transition duration-300 ease-in-out shadow-none w-full sm:w-64"
+                        className="relative text-center py-4 px-6 bg-white bg-opacity-30 rounded-lg hover:bg-opacity-40 hover:scale-105 transition duration-300 ease-in-out shadow-none w-full sm:w-60 lg:w-64"
                     >
-                        <div className="text-5xl mb-2 text-[#fc6c2c]">💼</div> {/* Responsive icon size */}
-                        <p className="text-lg sm:text-xl text-white">Office <br/> Equipment</p> {/* Responsive label size */}
+                        <div className="text-4xl sm:text-5xl mb-2 text-white">💼</div> {/* Changed icon color to white */}
+                        <p className="text-sm sm:text-lg text-white">Office <br/> Equipment</p> {/* Responsive label size */}
                     </button>
 
                     <button
                         onClick={() => navigate('/printer-service')}
-                        className="relative text-center py-4 px-6 bg-white bg-opacity-20 rounded-lg hover:bg-opacity-30 hover:scale-105 transition duration-300 ease-in-out shadow-none w-full sm:w-64"
+                        className="relative text-center py-4 px-6 bg-white bg-opacity-30 rounded-lg hover:bg-opacity-40 hover:scale-105 transition duration-300 ease-in-out shadow-none w-full sm:w-60 lg:w-64"
                     >
-                        <div className="text-5xl mb-2 text-[#fc6c2c]">🔧</div> {/* Responsive icon size */}
-                        <p className="text-lg sm:text-xl text-white">Printer Service <br/> & Repair</p> {/* Responsive label size */}
+                        <div className="text-4xl sm:text-5xl mb-2 text-white">🔧</div> {/* Changed icon color to white */}
+                        <p className="text-sm sm:text-lg text-white">Printer Service <br/> & Repair</p> {/* Responsive label size */}
                     </button>
 
                     <button
                         onClick={() => navigate('/managed-print')}
-                        className="relative text-center py-4 px-6 bg-white bg-opacity-20 rounded-lg hover:bg-opacity-30 hover:scale-105 transition duration-300 ease-in-out shadow-none w-full sm:w-64"
+                        className="relative text-center py-4 px-6 bg-white bg-opacity-30 rounded-lg hover:bg-opacity-40 hover:scale-105 transition duration-300 ease-in-out shadow-none w-full sm:w-60 lg:w-64"
                     >
-                        <div className="text-5xl mb-2 text-[#fc6c2c]">📋</div> {/* Responsive icon size */}
-                        <p className="text-lg sm:text-xl text-white">Managed Print <br/> Solutions</p> {/* Responsive label size */}
+                        <div className="text-4xl sm:text-5xl mb-2 text-white">📋</div> {/* Changed icon color to white */}
+                        <p className="text-sm sm:text-lg text-white">Managed Print <br/> Solutions</p> {/* Responsive label size */}
                     </button>
                 </div>
             </div>
