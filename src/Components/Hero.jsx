@@ -1,50 +1,56 @@
-import React from "react";
+import React, { useEffect, useState } from "react"; // Import useEffect and useState
 import bg from '../assets/6096119865631949531.jpg';
-import { useNavigate } from 'react-router-dom'; // Assuming you're using react-router for navigation
+import { useNavigate } from 'react-router-dom';
 
 const HeroSection = () => {
-    const navigate = useNavigate(); // useNavigate hook to navigate to other pages
+    const navigate = useNavigate();
+    const [fadeIn, setFadeIn] = useState(false); // State to control fade-in effect
+
+    useEffect(() => {
+        // Set the fade-in effect after the component mounts
+        const timer = setTimeout(() => {
+            setFadeIn(true);
+        }, 100); // Delay for a smoother effect
+        return () => clearTimeout(timer);
+    }, []);
 
     return (
         <div
-            className="relative bg-cover bg-center h-screen sm:h-[80vh]" // Set height to full on small screens, 80% on larger screens
-            style={{ backgroundImage: `url(${bg})` }} // Correctly format the background image
+            className="relative bg-cover bg-center h-screen sm:h-[80vh]"
+            style={{ backgroundImage: `url(${bg})` }}
         >
-            {/* Overlay for darkening the background image */}
-            <div className="absolute inset-0 bg-black bg-opacity-55"></div> {/* Increased opacity for better contrast */}
+            <div className="absolute inset-0 bg-black bg-opacity-60"></div>
 
-            {/* Content overlaid on top of the background image */}
-            <div className="relative flex flex-col items-center justify-center h-full px-6 sm:px-12 md:px-20 text-white"> {/* Center items and responsive padding */}
-                <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-4 text-center shadow-md">USAPRINT</h1> {/* Added text shadow */}
-                <p className="text-base sm:text-lg md:text-xl lg:text-2xl mb-8 max-w-lg text-center shadow-md">
-                    Dedicated to lowering the cost of printer ownership by providing quality toner cartridges and office equipment with fast, reliable service and support.
-                </p> {/* Added text shadow */}
-                
-                {/* Flex column on smaller screens */}
-                <div className="flex flex-col sm:flex-row sm:justify-center space-y-4 sm:space-y-0 sm:space-x-8"> {/* Responsive layout */}
-                    {/* Clickable button without shadow */}
+            <div className="relative flex flex-col items-center justify-center h-full px-6 sm:px-12 md:px-20 text-white">
+                {/* Added transition classes for the heading */}
+                <h1 className={`text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-10 text-center shadow-md transition-opacity duration-700 ${fadeIn ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
+                    USAPRINT CARE
+                </h1>
+
+                <div className="flex flex-col sm:flex-row sm:justify-center space-y-4 sm:space-y-0 sm:space-x-8">
+                    {/** Button with animations **/}
                     <button
                         onClick={() => navigate('/office-equipment')}
-                        className="relative text-center py-4 px-6 bg-white bg-opacity-30 rounded-lg hover:bg-opacity-40 hover:scale-105 transition duration-300 ease-in-out shadow-none w-full sm:w-60 lg:w-64"
+                        className={`relative text-center py-4 px-6 bg-white bg-opacity-30 rounded-lg transition-transform duration-300 ease-in-out transform hover:bg-opacity-40 hover:scale-105 ${fadeIn ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
                     >
-                        <div className="text-4xl sm:text-5xl mb-2 text-white">💼</div> {/* Changed icon color to white */}
-                        <p className="text-sm sm:text-lg text-white">Office <br/> Equipment</p> {/* Responsive label size */}
+                        <div className="text-4xl sm:text-5xl mb-2 text-white">💼</div>
+                        <p className="text-sm sm:text-lg text-white">Office <br/> Equipment</p>
                     </button>
 
                     <button
                         onClick={() => navigate('/printer-service')}
-                        className="relative text-center py-4 px-6 bg-white bg-opacity-30 rounded-lg hover:bg-opacity-40 hover:scale-105 transition duration-300 ease-in-out shadow-none w-full sm:w-60 lg:w-64"
+                        className={`relative text-center py-4 px-6 bg-white bg-opacity-30 rounded-lg transition-transform duration-300 ease-in-out transform hover:bg-opacity-40 hover:scale-105 ${fadeIn ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
                     >
-                        <div className="text-4xl sm:text-5xl mb-2 text-white">🔧</div> {/* Changed icon color to white */}
-                        <p className="text-sm sm:text-lg text-white">Printer Service <br/> & Repair</p> {/* Responsive label size */}
+                        <div className="text-4xl sm:text-5xl mb-2 text-white">🔧</div>
+                        <p className="text-sm sm:text-lg text-white">Printer Service <br/> & Repair</p>
                     </button>
 
                     <button
                         onClick={() => navigate('/managed-print')}
-                        className="relative text-center py-4 px-6 bg-white bg-opacity-30 rounded-lg hover:bg-opacity-40 hover:scale-105 transition duration-300 ease-in-out shadow-none w-full sm:w-60 lg:w-64"
+                        className={`relative text-center py-4 px-6 bg-white bg-opacity-30 rounded-lg transition-transform duration-300 ease-in-out transform hover:bg-opacity-40 hover:scale-105 ${fadeIn ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
                     >
-                        <div className="text-4xl sm:text-5xl mb-2 text-white">📋</div> {/* Changed icon color to white */}
-                        <p className="text-sm sm:text-lg text-white">Managed Print <br/> Solutions</p> {/* Responsive label size */}
+                        <div className="text-4xl sm:text-5xl mb-2 text-white">📋</div>
+                        <p className="text-sm sm:text-lg text-white">Managed Print <br/> Solutions</p>
                     </button>
                 </div>
             </div>
