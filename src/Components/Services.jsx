@@ -4,7 +4,7 @@ import officeEquipImage from '../assets/officequip.jpg';
 import printerServiceImage from '../assets/printerservice.jpg';
 import managedImage from '../assets/managedimage.jpg';
 import testimonialBg from '../assets/IMG_0372.jpg'; // Testimonial background image
-import contactBg from '../assets/IMG_0372.jpg'; // Contact background image
+import contactBg from '../assets/6098365076965802901.jpg'; // Contact background image
 
 // Card component
 const OfficeEquipmentCard = ({ imageSrc, heading, subheading, paragraph, route }) => {
@@ -54,8 +54,6 @@ const TestimonialBanner = () => {
 
 // Contact Me Banner Component
 const ContactMeBanner = () => {
-  const navigate = useNavigate(); // Initialize the navigate function
-
   return (
     <div
       className="relative bg-cover bg-center w-full h-64 flex items-center justify-center"
@@ -65,9 +63,8 @@ const ContactMeBanner = () => {
       <div className="relative text-white text-center p-4">
         <h2 className="text-2xl font-bold mb-4">Contact Us</h2>
         <p className="mb-4">Have questions? We're here to help!</p>
-        <button
-          className="bg-[#0075B1] text-white py-2 px-4 rounded-lg font-semibold"
-          onClick={() => navigate('/contact')} // Use the navigate function
+        <button className="bg-[#0075B1] text-white py-2 px-4 rounded-lg font-semibold"
+          onClick={() => navigate('/contact')}
         >
           Get in Touch
         </button>
