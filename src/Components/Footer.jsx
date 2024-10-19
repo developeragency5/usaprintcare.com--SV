@@ -13,15 +13,7 @@ const Footer = () => {
               </p>
 
               <ul className="flex items-center space-x-3 mt-9">
-                {/* Social Media Links */}
-                <li>
-                  <a href="#" className="flex items-center justify-center text-white transition-all duration-200 bg-gray-800 rounded-full w-7 h-7 hover:bg-blue-600">
-                    <svg className="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                      {/* SVG for social media */}
-                      <path d="..." />
-                    </svg>
-                  </a>
-                </li>
+                
                 {/* Add more social icons as needed */}
               </ul>
             </div>

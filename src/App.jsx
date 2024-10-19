@@ -7,6 +7,7 @@ import Contact from './pages/Contact';
 import Office from './pages/Office';
 import PrinterService from './pages/PrinterService';
 import ManagedPrint from './pages/ManagedPrint';
+import Blogs from './pages/Blogs';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
         <Route path="/service" element={<Service />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/blogs" element={<Blogs/>} />
  
 
         <Route path="/office-equipment" element={<Office/>} />
