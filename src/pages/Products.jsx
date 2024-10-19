@@ -12,7 +12,8 @@ const Office = () => {
     <div>
       <PreNavBar />
       <Navbar />
-      <div className="flex flex-col items-center justify-center w-[80%] mx-auto mt-16"> {/* Center the content and add margin */}
+      <div className='animate-fade-in ' > 
+        <div className="flex flex-col items-center justify-center w-[80%] mx-auto mt-16"> {/* Center the content and add margin */}
         <h1 className="text-4xl font-bold text-gray-900 uppercase">OUR</h1>
         <h1 className="text-4xl font-bold text-[#0075B1] uppercase mb-6">SERVICES</h1>
       </div>
@@ -114,7 +115,8 @@ const Office = () => {
         </div>
     </div>
 </section>
-      </div>
+      </div></div>
+      
 
     </div>
   );

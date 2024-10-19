@@ -67,7 +67,7 @@ const Faq = () => {
             </div>
 
             {/* Conclusion Section */}
-            <div className="py-10 bg-white">
+            <div className=" pt-14 pb-14 mt-14 mb-14 bg-white">
                 <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
                     <div className="max-w-3xl mx-auto text-center">
                         <h3 className="text-4xl font-bold text-gray-900 mb-4">Conclusion</h3> {/* Increased font size */}

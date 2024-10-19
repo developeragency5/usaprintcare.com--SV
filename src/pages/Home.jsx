@@ -11,7 +11,7 @@ import Brands from '../Components/Brands';
 
 const Home = () => {
   return (
-    <div>
+    <div className='animate-fade-in '>
       <PreNavBar/>
       <Navbar />
       <Hero />

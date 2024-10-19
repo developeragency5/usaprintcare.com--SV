@@ -9,6 +9,7 @@ const Contact = () => {
     <div>
       <PreNavBar />
       <Navbar />
+      <div className='animate-fade-in '>
       <div className="flex flex-col items-center justify-center w-[80%] mx-auto mt-16">
         <h1 className="text-4xl font-bold text-gray-900 uppercase">CONTACT</h1>
         <h1 className="text-4xl font-bold text-[#0075B1] uppercase mb-6">US</h1>
@@ -18,18 +19,18 @@ const Contact = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-[80%] mx-auto my-10">
         <ContactCard 
           icon={<MapPinIcon className="w-12 h-12 text-[#0075B1]" />}
-          title="Offline Location"
+          title="Address"
           detail="123 Street Name, City, Country"
         />
         <ContactCard 
           icon={<PhoneIcon className="w-12 h-12 text-[#0075B1]" />}
           title="Phone"
-          detail="+123 456 7890"
+          detail="+000000000000"
         />
         <ContactCard 
           icon={<PrinterIcon className="w-12 h-12 text-[#0075B1]" />}
           title="Fax"
-          detail="+123 456 7891"
+          detail="+000000000000"
         />
         <ContactCard 
           icon={<ClockIcon className="w-12 h-12 text-[#0075B1]" />}
@@ -44,7 +45,7 @@ const Contact = () => {
         <ContactCard 
           icon={<GlobeAltIcon className="w-12 h-12 text-[#0075B1]" />}
           title="Website"
-          detail="www.example.com"
+          detail="www.usaprintreapair.com"
         />
       </div>
 
@@ -83,6 +84,8 @@ const Contact = () => {
         <h2 className="text-3xl font-bold text-gray-900 mb-6 text-center">Your Satisfaction is Our Priority</h2>
         <p className="text-center text-lg text-gray-700 mb-6">At US Laser, Inc., we are committed to providing top-notch service to all our customers. Your feedback helps us improve and serve you better.</p>
       </div>
+      </div>
+      
 
       <Footer />
     </div>

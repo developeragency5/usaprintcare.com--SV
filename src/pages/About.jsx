@@ -5,76 +5,47 @@ import Footer from '../Components/Footer';
 
 const About = () => {
   return (
-    <div>
+    <div className="animate-fade-in">
       <PreNavBar />
       <Navbar />
 
-      {/* About Us Heading */}
       <div className="flex flex-col items-center justify-center w-[80%] mx-auto mt-16">
         <h1 className="text-4xl font-bold text-gray-900 uppercase">ABOUT</h1>
-        <h1 className="text-4xl font-bold text-[#0075B1] uppercase mb-6">US</h1>
+        <h1 className="text-4xl font-bold text-[#0075B1] uppercase mb-6">USAPRINT CARE</h1>
       </div>
 
       {/* About Us Content */}
       <div className="w-[80%] mx-auto my-10 text-center">
         <p className="text-lg text-gray-800 mb-4">
-          US Laser, Inc. is a trusted name in printer solutions, known for providing industry-leading support and services. 
-          Since our establishment in 1997, we have been committed to helping businesses maintain high operational efficiency 
-          by offering fast, reliable, and comprehensive printer support.
+          At <strong>USAPRINT CARE</strong>, we are dedicated to providing top-notch <strong>printer service and repair</strong> solutions for businesses and individuals alike. Since our establishment in 1997, we have built a reputation as a trusted provider of <strong>printer and copier services</strong>, ensuring that our clients can rely on us for all their printing needs.
         </p>
         
+        <h2 className="text-2xl font-bold text-gray-900 mb-6">Your Local Printer Service and Repair Experts</h2>
         <p className="text-lg text-gray-800 mb-4">
-          We take pride in being more than just a service provider. With over two decades of experience, our mission is to simplify 
-          printer management for our clients. From troubleshooting and repairs to supplies and maintenance, US Laser, Inc. is your one-stop-shop 
-          for all your printer-related needs. Whether it's resolving a complex hardware issue or sourcing the right parts, we act quickly 
-          and efficiently to minimize downtime and optimize productivity.
+          When searching for <strong>printer service and repair near me</strong>, look no further than USAPRINT CARE. Our team of experienced technicians is committed to delivering fast, reliable service tailored to your specific requirements. Whether you need immediate repairs or ongoing maintenance, we are here to help.
         </p>
 
-        {/* Our Core Values */}
-        <div className="my-10">
-          <h2 className="text-2xl font-bold text-gray-900 mb-6">Our Core Values</h2>
-          <ul className="list-disc list-inside text-lg text-gray-800">
-            <li className="mb-4">**Customer-Centric:** We put our customers' needs first, tailoring our services to meet their unique requirements.</li>
-            <li className="mb-4">**Reliability:** You can count on us for quick responses and solutions that last.</li>
-            <li className="mb-4">**Innovation:** We stay ahead of industry trends to bring you the latest in printer technology and solutions.</li>
-            <li className="mb-4">**Commitment to Excellence:** We are dedicated to providing high-quality service with precision and care.</li>
-            <li className="mb-4">**Sustainability:** Our solutions are eco-conscious, ensuring reduced waste and extended product life cycles.</li>
-          </ul>
-        </div>
+        <h2 className="text-2xl font-bold text-gray-900 mb-6">Comprehensive Printer Solutions</h2>
+        <p className="text-lg text-gray-800 mb-4">
+          Our comprehensive offerings include not just <strong>printer repair</strong>, but also services for <strong>scanner copier printers</strong>. We understand the importance of keeping your equipment running smoothly, which is why we offer preventative maintenance plans to ensure your devices operate at peak performance. If you find yourself in need of a <strong>copier near me</strong>, we have you covered with a wide range of models to meet your business demands.
+        </p>
 
-        {/* Our Services */}
-        <div className="my-10">
-          <h2 className="text-2xl font-bold text-gray-900 mb-6">What We Offer</h2>
-          <p className="text-lg text-gray-800 mb-4">
-            At US Laser, Inc., we specialize in:
-          </p>
-          <ul className="list-disc list-inside text-lg text-gray-800">
-            <li className="mb-4">**Printer Repair Services:** From small office printers to industrial machines, our expert technicians are trained to repair a wide range of brands and models.</li>
-            <li className="mb-4">**Preventative Maintenance:** Keep your devices running smoothly with our regular maintenance checks to prevent costly breakdowns.</li>
-            <li className="mb-4">**Printer Supplies:** We provide top-quality toner cartridges, ink, and parts to ensure your printers are always well-stocked and operational.</li>
-            <li className="mb-4">**Printer Fleet Management:** Let us handle the complexities of managing your printer fleet, from monitoring performance to timely repairs and upgrades.</li>
-          </ul>
-        </div>
+        <h2 className="text-2xl font-bold text-gray-900 mb-6">Why Choose USAPRINT CARE?</h2>
+        <ul className="list-disc list-inside text-lg text-gray-800 mb-4">
+          <li className="mb-2"><strong>Expertise You Can Trust:</strong> With over two decades of experience in the industry, our knowledgeable team is well-equipped to handle any printing challenge.</li>
+          <li className="mb-2"><strong>Quick Turnaround:</strong> We prioritize your needs and strive to minimize downtime with prompt service and repairs.</li>
+          <li className="mb-2"><strong>Affordable Rates:</strong> Our competitive pricing ensures you receive high-quality service without breaking the bank.</li>
+          <li className="mb-2"><strong>Customer Satisfaction:</strong> Our commitment to excellence means we go the extra mile to ensure our clients are satisfied with our services.</li>
+        </ul>
 
-        {/* Why Choose Us */}
-        <div className="my-10">
-          <h2 className="text-2xl font-bold text-gray-900 mb-6">Why Choose Us?</h2>
-          <p className="text-lg text-gray-800 mb-4">
-            Choosing US Laser, Inc. means working with a team that’s deeply invested in your success. We understand the frustration and downtime 
-            that printer issues can cause, which is why we prioritize fast, reliable service. Our goal is to ensure your printers are operating 
-            at peak performance, so you can focus on what matters most—running your business. 
-          </p>
-          <p className="text-lg text-gray-800 mb-4">
-            No problem is too small or too complex. Whether it’s a last-minute repair or a long-term maintenance plan, we’ve got you covered.
-          </p>
-        </div>
+        <p className="text-lg text-gray-800 mb-4">
+          If you're looking for a reliable <strong>printer near me</strong>, or need assistance with <strong>copier services</strong>, reach out to us today. At USAPRINT CARE, we are committed to simplifying your printer management and enhancing your productivity.
+        </p>
 
-        {/* Contact Info Section */}
-        <div className="mt-8">
-          <p className="text-xl font-semibold text-gray-900">
-            Speak to a Support Specialist: <span className="text-[#0075B1]">866-971-9080</span>
-          </p>
-        </div>
+        <h2 className="text-2xl font-bold text-gray-900 mb-6">Get in Touch</h2>
+        <p className="text-lg text-gray-800 mb-4">
+          Don’t let printer issues slow you down. Contact us at <strong>866-971-9080</strong> to speak with a support specialist and discover how USAPRINT CARE can assist you with all your printing needs. We are proud to serve our community and look forward to being your trusted partner for <strong>printer service and repair</strong>.
+        </p>
       </div>
 
       <Footer />
