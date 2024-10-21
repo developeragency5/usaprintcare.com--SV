@@ -32,11 +32,6 @@ const Blog = () => {
           <h2 className="text-3xl font-semibold mb-4 text-gray-800">
             Understanding the Importance of Professional Printer Repair
           </h2>
-          <img
-            src="/images/image1.jpg"
-            alt="Professional Printer Repair"
-            className="w-full h-auto rounded mb-4"
-          />
           <p className="text-gray-700 mb-4">
             When faced with printer problems, many people wonder whether it's
             worth repairing their device or if they should simply replace it.
@@ -80,11 +75,6 @@ const Blog = () => {
           <h2 className="text-3xl font-semibold mb-4 text-gray-800">
             Maintenance Tips to Prevent Future Printer Problems
           </h2>
-          <img
-            src="/images/image2.jpg"
-            alt="Printer Maintenance Tips"
-            className="w-full h-auto rounded mb-4"
-          />
           <p className="text-gray-700 mb-4">
             Regular maintenance can help prevent many common printer issues and
             extend the life of your device.
@@ -120,11 +110,6 @@ const Blog = () => {
           <h2 className="text-3xl font-semibold mb-4 text-gray-800">
             When to Consider Replacing Your Printer
           </h2>
-          <img
-            src="/images/image3.jpg"
-            alt="Replacing Your Printer"
-            className="w-full h-auto rounded mb-4"
-          />
           <p className="text-gray-700 mb-4">
             While many printer issues can be resolved through repair, there are
             times when replacement may be the better option.
@@ -161,11 +146,6 @@ const Blog = () => {
           <h2 className="text-3xl font-semibold mb-4 text-gray-800">
             The Future of Printer Technology and Repair
           </h2>
-          <img
-            src="/images/image4.jpg"
-            alt="Future of Printer Technology"
-            className="w-full h-auto rounded mb-4"
-          />
           <p className="text-gray-700 mb-4">
             As printer technology continues to evolve, so do the skills and
             tools required for repair and maintenance.
@@ -198,11 +178,6 @@ const Blog = () => {
           <h2 className="text-3xl font-semibold mb-4 text-gray-800">
             Preparing for Your Printer Repair Service
           </h2>
-          <img
-            src="/images/image5.jpg"
-            alt="Preparing for Printer Repair"
-            className="w-full h-auto rounded mb-4"
-          />
           <p className="text-gray-700 mb-4">
             Before bringing your printer in for repair or scheduling an on-site
             visit, take some steps to prepare and ensure a smooth process.
