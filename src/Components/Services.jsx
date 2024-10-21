@@ -22,7 +22,7 @@ const OfficeEquipmentCard = ({ imageSrc, heading, subheading, paragraph, route, 
         {/* Headings */}
         <h1 className="text-4xl font-bold text-gray-900 uppercase">{heading}</h1>
         <h1 className="text-4xl font-bold text-[#0075B1] uppercase mb-6">{subheading}</h1>
-        <p className="text-lg text-gray-700 mb-6">{paragraph}</p>
+        <p className="text-lg text-gray-700 mb-6 pr-12">{paragraph}</p>
 
         {/* Button with navigation */}
         <button
@@ -84,7 +84,12 @@ const App = () => {
         imageSrc={officeEquipImage}
         heading="Office"
         subheading="Equipment"
-        paragraph="New Sharp and Xerox copiers and MFPs at competitive prices"
+        paragraph={
+          <>
+            <p>Looking for office equipment near you? We provide a variety of reliable copiers, scanners, and multifunction printers to meet your needs.</p>
+            <p>Whether you need new equipment or maintenance services, we are your local experts in office solutions.</p>
+          </>
+        }
         route="/office-equipment" // Define the route for this card
       />
 
@@ -96,7 +101,12 @@ const App = () => {
         imageSrc={printerServiceImage}
         heading="Printer"
         subheading="Service"
-        paragraph="Top-notch printers and software at affordable prices"
+        paragraph={
+          <>
+            <p>Our printer service and repair offerings are designed to keep your machines running efficiently.</p>
+            <p>Whether you need help with a printer near you or require urgent repairs, our experienced technicians are ready to assist you.</p>
+          </>
+        }
         route="/printer-service" // Define the route for this card
         reverse={true} // Now this prop is used to reverse the layout
       />
@@ -109,7 +119,12 @@ const App = () => {
         imageSrc={managedImage}
         heading="Managed"
         subheading="Print Solutions"
-        paragraph="Customized print solutions with 24/7 support and professional services"
+        paragraph={
+          <>
+            <p>Explore our managed print solutions that offer tailored services to optimize your printing processes.</p>
+            <p>We provide support for your entire fleet of printers and copiers, ensuring you have what you need when you need it.</p>
+          </>
+        }
         route="/managed-print" // Define the route for this card
       />
     </div>

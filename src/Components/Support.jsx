@@ -6,7 +6,9 @@ const ComponentName = () => {
     <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="text-center">
             <h2 className="text-3xl font-bold leading-tight text-gray-900 sm:text-4xl xl:text-5xl font-pj">Make every step user-centric</h2>
-            <p className="mt-4 text-base leading-7 text-gray-600 sm:mt-8 font-pj">Lorem ipsum dolor sit amet, consectetur adipis elit</p>
+            <p className="mt-4 text-base leading-7 text-gray-600 sm:mt-8 font-pj">At USAPRINT Care, we provide exceptional printer service and repair near you. Our dedicated team is here to meet all your printing needs!
+
+</p>
         </div>
 
         <div className="grid grid-cols-1 mt-10 text-center sm:mt-16 sm:grid-cols-2 sm:gap-x-12 gap-y-12 md:grid-cols-3 md:gap-0 xl:mt-24">
@@ -17,7 +19,7 @@ const ComponentName = () => {
                     <path d="M45 29H33V45H41C43.209 45 45 43.209 45 41V29Z" fill="#D4D4D8" stroke="#161616" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
                 </svg>
                 <h3 className="mt-12 text-xl font-bold text-[#0075B1] font-pj">ABOUT US</h3>
-                <p className="mt-5 text-base text-gray-600 font-pj">Lorem ipsum dolor sit amet, consectetur adipis elit. Sit enim nec, proin faucibus nibh et sagittis a. Lacinia purus ac amet.</p>
+                <p className="mt-5 text-base text-gray-600 font-pj">USAPRINT Care offers comprehensive printer services and repairs tailored to your business. With our experienced technicians, you’ll have reliable support for your printing devices.</p>
             </div>
 
             <div className="md:p-8 lg:p-14 md:border-l md:border-gray-200">
@@ -29,7 +31,9 @@ const ComponentName = () => {
                     <path d="M28 1H37V10" stroke="#161616" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
                 </svg>
                 <h3 className="mt-12 text-xl font-bold text-[#0075B1] font-pj">PRINTER REPAIR</h3>
-                <p className="mt-5 text-base text-gray-600 font-pj">Lorem ipsum dolor sit amet, consectetur adipis elit. Sit enim nec, proin faucibus nibh et sagittis a. Lacinia purus ac amet.</p>
+                <p className="mt-5 text-base text-gray-600 font-pj">Looking for printer repair near you? Our certified technicians are ready to provide fast and efficient repair services to minimize downtime.
+
+</p>
             </div>
 
             <div className="md:p-8 lg:p-14 md:border-l md:border-gray-200">
@@ -40,7 +44,9 @@ const ComponentName = () => {
                     <path d="M35 7H24V35H35V7Z" fill="#D4D4D8" stroke="#161616" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
                 </svg>
                 <h3 className="mt-12 text-xl font-bold text-[#0075B1] font-pj">PRINTER HARDWARE</h3>
-                <p className="mt-5 text-base text-gray-600 font-pj">Lorem ipsum dolor sit amet, consectetur adipis elit. Sit enim nec, proin faucibus nibh et sagittis a. Lacinia purus ac amet.</p>
+                <p className="mt-5 text-base text-gray-600 font-pj">We also specialize in scanner copier printer solutions. Our team can assist you in finding the perfect printer hardware to fit your business needs.
+
+</p>
             </div>
 
             <div className="md:p-8 lg:p-14 md:border-t md:border-gray-200">
@@ -55,7 +61,8 @@ const ComponentName = () => {
                     <path d="M37 1H5C2.79086 1 1 2.79086 1 5V37C1 39.2091 2.79086 41 5 41H37C39.2091 41 41 39.2091 41 37V5C41 2.79086 39.2091 1 37 1Z" stroke="#161616" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
                 </svg>
                 <h3 className="mt-12 text-xl font-bold text-[#0075B1] font-pj">CONTACT US</h3>
-                <p className="mt-5 text-base text-gray-600 font-pj">Lorem ipsum dolor sit amet, consectetur adipis elit. Sit enim nec, proin faucibus nibh et sagittis a. Lacinia purus ac amet.</p>
+                <p className="mt-5 text-base text-gray-600 font-pj">For all your printing needs, reach out to USAPRINT Care. We are your go-to for printer service and repairs.
+                </p>
             </div>
 
             <div className="md:p-8 lg:p-14 md:border-l md:border-gray-200 md:border-t">
@@ -79,7 +86,8 @@ const ComponentName = () => {
                     />
                 </svg>
                 <h3 className="mt-12 text-xl font-bold text-[#0075B1] font-pj">NEWS & TIPS</h3>
-                <p className="mt-5 text-base text-gray-600 font-pj">Lorem ipsum dolor sit amet, consectetur adipis elit. Sit enim nec, proin faucibus nibh et sagittis a. Lacinia purus ac amet.</p>
+                <p className="mt-5 text-base text-gray-600 font-pj">Our services extend across various locations. Find out if we service your area by contacting us today.
+                </p>
             </div>
 
             <div className="md:p-8 lg:p-14 md:border-l md:border-gray-200 md:border-t">
@@ -88,7 +96,8 @@ const ComponentName = () => {
                     <path d="M19 1C9.059 1 1 9.059 1 19H19V1Z" fill="#D4D4D8" stroke="#161616" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
                 </svg>
                 <h3 className="mt-12 text-xl font-bold text-[#0075B1] font-pj">Result</h3>
-                <p className="mt-5 text-base text-gray-600 font-pj">Lorem ipsum dolor sit amet, consectetur adipis elit. Sit enim nec, proin faucibus nibh et sagittis a. Lacinia purus ac amet.</p>
+                <p className="mt-5 text-base text-gray-600 font-pj">Contact us to schedule a printer service or repair. Our team is dedicated to providing timely and efficient solutions.
+                </p>
             </div>
         </div>
     </div>

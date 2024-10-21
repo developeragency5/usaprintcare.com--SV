@@ -15,7 +15,7 @@ const Services = () => {
           <h1 className="text-4xl font-bold text-[#0075B1] uppercase mb-6">Services</h1>
         </div>
 
-        {/* Grid with 6 service cards */}
+        {/* Grid with 8 service cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-[80%] mx-auto my-10">
           <ServiceCard 
             icon={<WrenchIcon className="w-12 h-12 text-[#0075B1]" />}
@@ -46,6 +46,18 @@ const Services = () => {
             icon={<ShieldCheckIcon className="w-12 h-12 text-[#0075B1]" />}
             title="Fleet Management"
             description="Centralized management of your printer fleet for efficiency and savings—your ultimate <strong>printer service</strong> partner."
+          />
+          {/* New Service Card 1 */}
+          <ServiceCard 
+            icon={<WrenchIcon className="w-12 h-12 text-[#0075B1]" />}
+            title="On-Site Maintenance"
+            description="Convenient on-site maintenance services to keep your printers operating at peak performance."
+          />
+          {/* New Service Card 2 */}
+          <ServiceCard 
+            icon={<UserGroupIcon className="w-12 h-12 text-[#0075B1]" />}
+            title="Training & Workshops"
+            description="Training sessions for your staff on optimal printer use and troubleshooting basic issues."
           />
         </div>
 
