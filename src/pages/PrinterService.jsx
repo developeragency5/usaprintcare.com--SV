@@ -2,6 +2,7 @@ import React from 'react';
 import PreNavBar from '../Components/PreNavBar';
 import Navbar from '../Components/Navbar';
 import Footer from '../Components/Footer';
+import image from '../assets/print-services.webp'
 
 const Office = () => {
   return (
@@ -19,6 +20,14 @@ const Office = () => {
           {/* Paragraph Section */}
           <p className="text-gray-500 max-w-2xl mx-auto mb-12">
             Struggling with printer issues? Look no further! At USAPRINT Repair, we offer exceptional printer service and repair near you. Our dedicated technicians handle all types of printer problems, ensuring your printer is up and running in no time. From laser printers to scanner copier printers, we've got you covered. Call <a href="tel:1000000000" className="text-blue-500 font-bold">100-000-0000</a> for immediate assistance with your copier near me!
+          </p>
+
+          {/* Image tag to add after the paragraph */}
+          <img src={image} alt="Managed Print Solutions" className="mx-auto my-8" />
+
+          {/* Additional content on Managed Print Solutions */}
+          <p className="text-gray-500 max-w-2xl mx-auto mb-12">
+            Managed Print Solutions can help your company streamline its printing and reduce costs by turning over the day-to-day upkeep to a company that specializes in printers and printer supplies. Precision Printer Services will maintain your fleet of printers when you enroll in the Managed Print Solutions program and purchase PPS premium remanufactured toner cartridges. As a seamless addition to your IT staff, Precision Printer Services will handle everything printer related in your daily operations, from providing supplies to printer repair. Managed Print Solutions through PPS will free up your IT staff, and the “soft costs savings” will add up quickly. If your fleet is large enough, Precision Printer Services will place a technician on-site, free of charge. An on-site technician ensures quick desktop supply delivery, rapid response time for repairs, and real-time updates for printer issues.
           </p>
 
           {/* Added Services Section */}
