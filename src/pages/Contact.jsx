@@ -20,7 +20,7 @@ const Contact = () => {
         <ContactCard 
           icon={<MapPinIcon className="w-12 h-12 text-[#0075B1]" />}
           title="Address"
-          detail="123 Street Name, City, Country"
+          detail="1968 S Coast Hwy #3514 Laguna Beach, CA 92651"
         />
         <ContactCard 
           icon={<PhoneIcon className="w-12 h-12 text-[#0075B1]" />}
