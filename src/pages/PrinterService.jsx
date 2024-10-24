@@ -19,7 +19,7 @@ const Office = () => {
 
           {/* Paragraph Section */}
           <p className="text-gray-500 max-w-2xl mx-auto mb-12">
-            Struggling with printer issues? Look no further! At USAPRINT Care, we offer exceptional printer service and repair near you. Our dedicated technicians handle all types of printer problems, ensuring your printer is up and running in no time. From laser printers to scanner copier printers, we've got you covered. Call <a href="tel:1000000000" className="text-blue-500 font-bold">100-000-0000</a> for immediate assistance with your copier near me!
+            Struggling with printer issues? Look no further! At USA PRINT CARE, we offer exceptional printer service and repair near you. Our dedicated technicians handle all types of printer problems, ensuring your printer is up and running in no time. From laser printers to scanner copier printers, we've got you covered. Call <a href="tel:1000000000" className="text-blue-500 font-bold">100-000-0000</a> for immediate assistance with your copier near me!
           </p>
 
           {/* Image tag to add after the paragraph */}
