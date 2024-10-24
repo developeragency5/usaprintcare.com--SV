@@ -22,33 +22,30 @@ const HeroSection = () => {
 
             <div className="relative flex flex-col items-center justify-center h-full px-6 sm:px-12 md:px-20 text-white">
                 <h1 className={`text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-10 text-center shadow-md transition-opacity duration-700 transform ${fadeIn ? 'opacity-100 translate-y-0 animate-bounce' : 'opacity-0 translate-y-10'}`}>
-                    USA PRINT CARE
+                    USAPRINT CARE
                 </h1>
 
                 <div className="flex flex-col sm:flex-row sm:justify-center space-y-4 sm:space-y-0 sm:space-x-8">
                     {/* Buttons with bounce animation */}
                     <button
-// {/*                         onClick={() => navigate('/office-equipment')} */}
-                        className={`relative text-center py-6 px-8 min-w-[200px] bg-white bg-opacity-30 rounded-lg transition-all duration-300 ease-in-out transform hover:bg-opacity-40 hover:scale-105 ${fadeIn ? 'opacity-100 translate-y-0 animate-bounce' : 'opacity-0 translate-y-10'}`}
+                        className={`relative text-center py-6 px-8 min-w-[200px] bg-white bg-opacity-30 rounded-lg cursor-default ${fadeIn ? 'opacity-100 translate-y-0 animate-bounce' : 'opacity-0 translate-y-10'}`}
                     >
                         <div className="text-4xl sm:text-5xl mb-2 text-white">💼</div>
-                        <p className="text-sm sm:text-lg text-white">Office <br/> Equipment</p>
+                        <p className="text-sm sm:text-lg text-white">Office <br /> Equipment</p>
                     </button>
 
                     <button
-// {/*                         onClick={() => navigate('/printer-service')} */}
-                        className={`relative text-center py-6 px-8 min-w-[200px] bg-white bg-opacity-30 rounded-lg transition-all duration-300 ease-in-out transform hover:bg-opacity-40 hover:scale-105 ${fadeIn ? 'opacity-100 translate-y-0 animate-bounce' : 'opacity-0 translate-y-10'}`}
+                        className={`relative text-center py-6 px-8 min-w-[200px] bg-white bg-opacity-30 rounded-lg cursor-default ${fadeIn ? 'opacity-100 translate-y-0 animate-bounce' : 'opacity-0 translate-y-10'}`}
                     >
                         <div className="text-4xl sm:text-5xl mb-2 text-white">🔧</div>
-                        <p className="text-sm sm:text-lg text-white">Printer Service <br/> & Repair</p>
+                        <p className="text-sm sm:text-lg text-white">Printer Service <br /> & Repair</p>
                     </button>
 
                     <button
-// {/*                         onClick={() => navigate('/managed-print')} */}
-                        className={`relative text-center py-6 px-8 min-w-[200px] bg-white bg-opacity-30 rounded-lg transition-all duration-300 ease-in-out transform hover:bg-opacity-40 hover:scale-105 ${fadeIn ? 'opacity-100 translate-y-0 animate-bounce' : 'opacity-0 translate-y-10'}`}
+                        className={`relative text-center py-6 px-8 min-w-[200px] bg-white bg-opacity-30 rounded-lg cursor-default ${fadeIn ? 'opacity-100 translate-y-0 animate-bounce' : 'opacity-0 translate-y-10'}`}
                     >
                         <div className="text-4xl sm:text-5xl mb-2 text-white">📋</div>
-                        <p className="text-sm sm:text-lg text-white">Managed Print <br/> Solutions</p>
+                        <p className="text-sm sm:text-lg text-white">Managed Print <br /> Solutions</p>
                     </button>
                 </div>
             </div>
