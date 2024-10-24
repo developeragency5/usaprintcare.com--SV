@@ -8,8 +8,6 @@ import contactBg from '../assets/6098365076965802901.jpg'; // Contact background
 
 // Card component
 const OfficeEquipmentCard = ({ imageSrc, heading, subheading, paragraph, route, reverse }) => {
-  const navigate = useNavigate(); // Use the useNavigate hook for navigation
-
   return (
     <div className={`flex flex-col ${reverse ? 'md:flex-row-reverse' : 'md:flex-row'} items-center bg-white p-8 max-w-6xl mx-auto`}>
       {/* Image Section */}
@@ -25,12 +23,12 @@ const OfficeEquipmentCard = ({ imageSrc, heading, subheading, paragraph, route, 
         <p className="text-lg text-gray-700 mb-6 pr-12">{paragraph}</p>
 
         {/* Button with navigation */}
-        <button
-          className="bg-[#0075B1] text-white py-2 px-4 rounded-lg font-semibold text-lg w-full md:w-32"
-          onClick={() => navigate(route)} // Navigate to the specified route
+        <a
+          href={route} // Use href for navigation
+          className="bg-[#0075B1] text-white py-2 px-4 rounded-lg font-semibold text-lg w-full md:w-32 text-center"
         >
           Request Service
-        </button>
+        </a>
       </div>
     </div>
   );
@@ -45,7 +43,7 @@ const TestimonialBanner = () => {
     >
       <div className="absolute inset-0 bg-black bg-opacity-50"></div>
       <blockquote className="relative text-white text-center p-4">
-        <p className="text-xl italic mb-4">"USA PRINT CARE transformed our office with their reliable equipment and service!"</p>
+        <p className="text-xl italic mb-4">"USAPRINT transformed our office with their reliable equipment and service!"</p>
         <footer className="font-semibold">- Happy Customer</footer>
       </blockquote>
     </div>
@@ -54,8 +52,6 @@ const TestimonialBanner = () => {
 
 // Contact Me Banner Component
 const ContactMeBanner = () => {
-  const navigate = useNavigate(); // Use useNavigate for routing
-
   return (
     <div
       className="relative bg-cover bg-center w-full h-64 flex items-center justify-center"
@@ -65,11 +61,12 @@ const ContactMeBanner = () => {
       <div className="relative text-white text-center p-4">
         <h2 className="text-2xl font-bold mb-4">Contact Us</h2>
         <p className="mb-4">Have questions? We're here to help!</p>
-        <button className="bg-[#0075B1] text-white py-2 px-4 rounded-lg font-semibold"
-          onClick={() => navigate('/contact')}
+        <a 
+          href="/contact" // Use href for navigation
+          className="bg-[#0075B1] text-white py-2 px-4 rounded-lg font-semibold"
         >
           Get in Touch
-        </button>
+        </a>
       </div>
     </div>
   );
@@ -107,7 +104,7 @@ const App = () => {
             <p>Whether you need help with a printer near you or require urgent repairs, our experienced technicians are ready to assist you.</p>
           </>
         }
-        route="/printer-service" // Define the route for this card
+        route="/contact" // Define the route for this card
         reverse={true} // Now this prop is used to reverse the layout
       />
 
@@ -125,7 +122,7 @@ const App = () => {
             <p>We provide support for your entire fleet of printers and copiers, ensuring you have what you need when you need it.</p>
           </>
         }
-        route="/managed-print" // Define the route for this card
+        route="/contact" // Define the route for this card
       />
     </div>
   );
