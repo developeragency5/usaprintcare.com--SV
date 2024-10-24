@@ -20,12 +20,12 @@ const Services = () => {
           <ServiceCard 
             icon={<WrenchIcon className="w-12 h-12 text-[#0075B1]" />}
             title="Comprehensive Printer Repair"
-            description="Fast and reliable <strong>printer service and repair near me</strong> for all major printer brands."
+            description="Fast and reliable <strong>printer service and repair </strong> for all major printer brands."
           />
           <ServiceCard 
             icon={<ShieldCheckIcon className="w-12 h-12 text-[#0075B1]" />}
             title="Managed Print Services (MPS)"
-            description="We handle all aspects of your printer fleet, from supplies to troubleshooting, ensuring your <strong>printer near me</strong> needs are met."
+            description="We handle all aspects of your printer fleet, from supplies to troubleshooting, ensuring your <strong>printer </strong> needs are met."
           />
           <ServiceCard 
             icon={<CogIcon className="w-12 h-12 text-[#0075B1]" />}
@@ -35,7 +35,7 @@ const Services = () => {
           <ServiceCard 
             icon={<UserGroupIcon className="w-12 h-12 text-[#0075B1]" />}
             title="Customer Support"
-            description="24/7 support for printer issues, with quick response times for your <strong>copier near me</strong> inquiries."
+            description="24/7 support for printer issues, with quick response times for your <strong>copier </strong> inquiries."
           />
           <ServiceCard 
             icon={<CubeTransparentIcon className="w-12 h-12 text-[#0075B1]" />}
