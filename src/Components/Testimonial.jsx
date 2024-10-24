@@ -6,7 +6,7 @@ const Testimonial = () => {
             <div className="absolute inset-0 bg-black opacity-30"></div>
             <div className="relative z-10 max-w-2xl text-center">
                 <blockquote className="text-white text-xl font-medium mb-4">
-                    “ I have been a customer of USAPRINT Care for over 15 years! Their printer repair techs are the best! Fast printer repair at a great price! ”
+                    “ I have been a customer of USA PRINT CARE for over 15 years! Their printer repair techs are the best! Fast printer repair at a great price! ”
                 </blockquote>
                 <p className="text-lg text-white font-bold">
                     — Mark Johnson, IT Manager - US Foods
