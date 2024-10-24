@@ -18,17 +18,17 @@ const ManagedPrint = () => {
             Managed Print Solutions can help your company streamline its
             printing and reduce costs by turning over the day-to-day upkeep to a
             company that specializes in printers and printer supplies.{' '}
-            <strong>USAPRINT Care</strong> will maintain your fleet of printers
+            <strong>USA PRINT CARE</strong> will maintain your fleet of printers
             when you enroll in the Managed Print Solutions program and purchase
-            USAPRINT Care premium remanufactured toner cartridges. As a seamless
-            addition to your IT staff, <strong>USAPRINT Care</strong> will
+            USA PRINT Care premium remanufactured toner cartridges. As a seamless
+            addition to your IT staff, <strong>USA PRINT CARE</strong> will
             handle everything printer-related in your day-to-day operations,
             from providing supplies to printer repair. Managed Print Solutions
-            through <strong>USAPRINT Care</strong> will free up your IT staff,
+            through <strong>USA PRINT CARE</strong> will free up your IT staff,
             and the “soft cost savings” will add up quickly.
           </p>
           <p className="mt-4">
-            If your fleet is large enough, <strong>USAPRINT Care</strong> will
+            If your fleet is large enough, <strong>USA PRINT CARE</strong> will
             place a technician on-site, free of charge. An on-site technician
             ensures quick desktop supply delivery, rapid response time for
             repairs, and real-time updates for printer issues.
@@ -39,11 +39,11 @@ const ManagedPrint = () => {
         {/* Additional Content with Keywords */}
         <div className="flex flex-col items-center justify-center w-[60%] mx-auto mt-10">
           <h2 className="text-3xl font-semibold mb-6 text-gray-800">
-            Why Choose USAPRINT Care for Printer Service and Repair
+            Why Choose USA PRINT CARE for Printer Service and Repair
           </h2>
           <p>
             Finding reliable <strong>printer service and repair near me</strong> can
-            be a challenge, but with <strong>USAPRINT Care</strong>, we make it
+            be a challenge, but with <strong>USA PRINT CARE</strong>, we make it
             easy. Our expert technicians are certified and experienced in
             servicing all types of printers, including multi-function devices
             like <strong>scanner copier printers</strong>. Whether you need on-site
@@ -55,7 +55,7 @@ const ManagedPrint = () => {
             In addition to printer service, we offer full support for
             businesses looking to optimize their print environments. Our Managed
             Print Solutions not only reduce costs but also improve efficiency.
-            By outsourcing your printer management to <strong>USAPRINT Care</strong>,
+            By outsourcing your printer management to <strong>USA PRINT CARE</strong>,
             you can focus on what truly matters: running your business. 
           </p>
 
