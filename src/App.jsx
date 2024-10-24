@@ -10,6 +10,9 @@ import ManagedPrint from './pages/ManagedPrint';
 import Blogs from './pages/Blogs';
 
 import Privacy from './Components/Privacy';
+import Terms from './Components/Terms';
+import RR from './Components/RR';
+import Disclaimer from './Components/Disclaimer';
 
 // import PrivacyPolicy from './pages/PrivacyPolicy';
 
@@ -29,8 +32,11 @@ function App() {
         <Route path="/office-equipment" element={<Office/>} />
         <Route path="/printer-service" element={<PrinterService/>} />   
         <Route path="/managed-print" element={<ManagedPrint/>} />
+        <Route path="/terms" element={<Terms/>} />
 
         <Route path="/privacy" element={<Privacy/>} />
+        <Route path="/return&refund" element={<RR/>} />
+        <Route path="/disclaimer" element={<Disclaimer/>} />
 
         {/* <Route path="/privayPolicies" element={<PrivacyPolicy/>} /> */}
       </Routes>
