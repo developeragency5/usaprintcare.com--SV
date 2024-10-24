@@ -25,12 +25,12 @@ const Contact = () => {
         <ContactCard 
           icon={<PhoneIcon className="w-12 h-12 text-[#0075B1]" />}
           title="Phone"
-          detail="+000000000000"
+          detail="+1-949-273-2422"
         />
         <ContactCard 
           icon={<PrinterIcon className="w-12 h-12 text-[#0075B1]" />}
           title="Fax"
-          detail="+000000000000"
+          detail="+1-949-273-2422"
         />
         <ContactCard 
           icon={<ClockIcon className="w-12 h-12 text-[#0075B1]" />}
@@ -40,7 +40,7 @@ const Contact = () => {
         <ContactCard 
           icon={<EnvelopeIcon className="w-12 h-12 text-[#0075B1]" />}
           title="Email"
-          detail="info@example.com"
+          detail="usaprintcare@outlook.com"
         />
         <ContactCard 
           icon={<GlobeAltIcon className="w-12 h-12 text-[#0075B1]" />}

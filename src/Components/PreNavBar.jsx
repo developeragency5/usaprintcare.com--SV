@@ -17,13 +17,13 @@ const PreNavBar = () => {
       <div className="flex-grow flex justify-center mb-2 sm:mb-0">
         <a href="mailto:info@gmail.com" className="flex items-center text-white text-sm sm:text-base">
           <EnvelopeIcon className="w-5 h-5 mr-1" /> {/* Change to EnvelopeIcon */}
-          info@gmail.com
+          usaprintcare@outlook.com
         </a>
       </div>
       <div className="flex items-center space-x-4">
         <a href="tel:+10000000000" className="flex items-center text-white text-sm sm:text-base">
           <PhoneIcon className="w-5 h-5 mr-1" />
-          +1 000 000 0000
+          +1-949-273-2422
         </a>
       </div>
     </header>

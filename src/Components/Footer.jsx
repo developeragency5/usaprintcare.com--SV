@@ -40,6 +40,26 @@ const Footer = () => {
               </ul>
             </div>
 
+            <div>
+              <p className="text-sm font-semibold tracking-widest text-gray-400 uppercase">Company</p>
+              <ul className="mt-6 space-y-4">
+                <li>
+                  <a href="/privacy-policies" className="flex text-base text-black transition-all duration-200 hover:text-blue-600"> Privacy Policies </a>
+                </li>
+                <li>
+                  <a href="/terms-and-conditions" className="flex text-base text-black transition-all duration-200 hover:text-blue-600"> Terms & Conditions </a>
+                </li>
+                <li>
+                  <a href="/refund-policies" className="flex text-base text-black transition-all duration-200 hover:text-blue-600"> Refund Policies </a>
+                </li>
+                <li>
+                  <a href="/disclaimer" className="flex text-base text-black transition-all duration-200 hover:text-blue-600"> Disclaimer </a>
+                </li>
+              </ul>
+            </div>
+
+            
+
             {/* Subscribe to Newsletter */}
             <div className="col-span-2 md:col-span-1 lg:col-span-2 lg:pl-8">
               <p className="text-sm font-semibold tracking-widest text-gray-400 uppercase">Subscribe to newsletter</p>

@@ -9,6 +9,7 @@ import PrinterService from './pages/PrinterService';
 import ManagedPrint from './pages/ManagedPrint';
 import Blogs from './pages/Blogs';
 
+
 function App() {
 
   return (
@@ -25,6 +26,8 @@ function App() {
         <Route path="/office-equipment" element={<Office/>} />
         <Route path="/printer-service" element={<PrinterService/>} />
         <Route path="/managed-print" element={<ManagedPrint/>} />
+
+        {/* <Route path="/privacy-policies" element={<PrivacyPolicy/>} /> */}
       </Routes>
     </>
   )
