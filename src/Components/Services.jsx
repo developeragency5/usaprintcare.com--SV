@@ -45,7 +45,7 @@ const TestimonialBanner = () => {
     >
       <div className="absolute inset-0 bg-black bg-opacity-50"></div>
       <blockquote className="relative text-white text-center p-4">
-        <p className="text-xl italic mb-4">"USAPRINT transformed our office with their reliable equipment and service!"</p>
+        <p className="text-xl italic mb-4">"USA PRINT transformed our office with their reliable equipment and service!"</p>
         <footer className="font-semibold">- Happy Customer</footer>
       </blockquote>
     </div>
