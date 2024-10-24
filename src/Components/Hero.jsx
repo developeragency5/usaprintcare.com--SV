@@ -22,7 +22,7 @@ const HeroSection = () => {
 
             <div className="relative flex flex-col items-center justify-center h-full px-6 sm:px-12 md:px-20 text-white">
                 <h1 className={`text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-10 text-center shadow-md transition-opacity duration-700 transform ${fadeIn ? 'opacity-100 translate-y-0 animate-bounce' : 'opacity-0 translate-y-10'}`}>
-                    USAPRINT CARE
+                    USA PRINT CARE
                 </h1>
 
                 <div className="flex flex-col sm:flex-row sm:justify-center space-y-4 sm:space-y-0 sm:space-x-8">
