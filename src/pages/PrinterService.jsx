@@ -19,7 +19,7 @@ const Office = () => {
 
           {/* Paragraph Section */}
           <p className="text-gray-500 max-w-2xl mx-auto mb-12">
-            Struggling with printer issues? Look no further! At USAPRINT Repair, we offer exceptional printer service and repair near you. Our dedicated technicians handle all types of printer problems, ensuring your printer is up and running in no time. From laser printers to scanner copier printers, we've got you covered. Call <a href="tel:1000000000" className="text-blue-500 font-bold">100-000-0000</a> for immediate assistance with your copier near me!
+            Struggling with printer issues? Look no further! At USAPRINT Care, we offer exceptional printer service and repair near you. Our dedicated technicians handle all types of printer problems, ensuring your printer is up and running in no time. From laser printers to scanner copier printers, we've got you covered. Call <a href="tel:1000000000" className="text-blue-500 font-bold">100-000-0000</a> for immediate assistance with your copier near me!
           </p>
 
           {/* Image tag to add after the paragraph */}
@@ -57,11 +57,11 @@ const Office = () => {
           <h3 className="text-2xl font-semibold mb-6">What Our Clients Say</h3>
           <div className="max-w-2xl mx-auto mb-12">
             <blockquote className="border-l-4 border-gray-900 pl-4 italic">
-              "USAPRINT Repair saved our business! Their quick response time and expert knowledge are unmatched."
+              "USAPRINT Care saved our business! Their quick response time and expert knowledge are unmatched."
               <cite className="block mt-2 text-right">- Sarah T., Office Manager</cite>
             </blockquote>
             <blockquote className="border-l-4 border-gray-900 pl-4 italic mt-4">
-              "We rely on USAPRINT Repair for all our printer needs. They are professional and always go the extra mile."
+              "We rely on USAPRINT Care for all our printer needs. They are professional and always go the extra mile."
               <cite className="block mt-2 text-right">- John D., IT Director</cite>
             </blockquote>
           </div>
