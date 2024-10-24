@@ -37,14 +37,17 @@ const Footer = () => {
                 <li>
                   <a href="/contact" className="flex text-base text-black transition-all duration-200 hover:text-blue-600"> Contact </a>
                 </li>
+                <li>
+                  <a href="/privacy" className="flex text-base text-black transition-all duration-200 hover:text-blue-600"> Privacy Policies </a>
+                </li>
               </ul>
             </div>
 
-            <div>
+            {/* <div>
               <p className="text-sm font-semibold tracking-widest text-gray-400 uppercase">Company</p>
               <ul className="mt-6 space-y-4">
                 <li>
-                  <a href="/privacy-policies" className="flex text-base text-black transition-all duration-200 hover:text-blue-600"> Privacy Policies </a>
+                  <a href="/privayPolicies" className="flex text-base text-black transition-all duration-200 hover:text-blue-600"> PrivacyPolicies </a>
                 </li>
                 <li>
                   <a href="/terms-and-conditions" className="flex text-base text-black transition-all duration-200 hover:text-blue-600"> Terms & Conditions </a>
@@ -56,7 +59,7 @@ const Footer = () => {
                   <a href="/disclaimer" className="flex text-base text-black transition-all duration-200 hover:text-blue-600"> Disclaimer </a>
                 </li>
               </ul>
-            </div>
+            </div> */}
 
             
 
