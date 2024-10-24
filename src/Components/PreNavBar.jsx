@@ -11,7 +11,7 @@ const PreNavBar = () => {
         className="text-white text-2xl sm:text-3xl font-bold cursor-pointer mb-2 sm:mb-0"
         onClick={() => navigate('/')} // Navigate to home page when clicked
       >
-        USAPRINT CARE
+        USA PRINT CARE
       </h1>
       {/* Centering the email */}
       <div className="flex-grow flex justify-center mb-2 sm:mb-0">
