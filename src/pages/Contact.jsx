@@ -82,7 +82,7 @@ const Contact = () => {
       {/* Commitment to Customer Service */}
       <div className="flex flex-col items-center justify-center w-[80%] mx-auto my-10">
         <h2 className="text-3xl font-bold text-gray-900 mb-6 text-center">Your Satisfaction is Our Priority</h2>
-        <p className="text-center text-lg text-gray-700 mb-6">At US Laser, Inc., we are committed to providing top-notch service to all our customers. Your feedback helps us improve and serve you better.</p>
+        <p className="text-center text-lg text-gray-700 mb-6">At USA PRINT CARE, we are committed to providing top-notch service to all our customers. Your feedback helps us improve and serve you better.</p>
       </div>
       </div>
       
