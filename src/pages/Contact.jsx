@@ -30,7 +30,7 @@ const Contact = () => {
         <ContactCard 
           icon={<PrinterIcon className="w-12 h-12 text-[#0075B1]" />}
           title="Fax"
-          detail="+1-949-273-2422"
+          detail="(949)-273-2422"
         />
         <ContactCard 
           icon={<ClockIcon className="w-12 h-12 text-[#0075B1]" />}
