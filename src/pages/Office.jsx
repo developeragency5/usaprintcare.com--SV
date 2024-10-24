@@ -22,10 +22,10 @@ const Office = () => {
             <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
               <div className="max-w-3xl mx-auto text-center">
                 <p className="mt-2 text-base font-normal leading-7 text-gray-600">
-                  At USAPRINT Care, we are dedicated to providing exceptional printer service and repair solutions tailored to your business needs. Our certified technicians are equipped with the expertise to handle a wide range of printer brands and models, ensuring reliable support that minimizes downtime.
+                  At USA PRINT CARE, we are dedicated to providing exceptional printer service and repair solutions tailored to your business needs. Our certified technicians are equipped with the expertise to handle a wide range of printer brands and models, ensuring reliable support that minimizes downtime.
                 </p>
                 <p className="mt-4 text-base font-normal leading-7 text-gray-600">
-                  We understand that efficient printing is crucial for your operations. That’s why our team specializes in both on-site and depot repairs, offering swift, professional service that keeps your printing devices running smoothly. Choose USAPRINT Care for all your printing solutions.
+                  We understand that efficient printing is crucial for your operations. That’s why our team specializes in both on-site and depot repairs, offering swift, professional service that keeps your printing devices running smoothly. Choose USA PRINT CARE for all your printing solutions.
                 </p>
               </div>
               <div className="grid grid-cols-2 gap-6 mt-10 lg:mt-16 lg:gap-4 lg:grid-cols-4">
