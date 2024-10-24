@@ -28,9 +28,9 @@ const Footer = () => {
                 <li>
                   <a href="/about" className="flex text-base text-black transition-all duration-200 hover:text-blue-600"> About </a>
                 </li>
-                <li>
+{/*                 <li>
                   <a href="/products" className="flex text-base text-black transition-all duration-200 hover:text-blue-600"> Products </a>
-                </li>
+                </li> */}
                 <li>
                   <a href="/service" className="flex text-base text-black transition-all duration-200 hover:text-blue-600"> Services </a>
                 </li>
