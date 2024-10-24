@@ -21,7 +21,7 @@ const Footer = () => {
             {/* Links for Company Section */}
             <div>
               <p className="text-sm font-semibold tracking-widest text-gray-400 uppercase">Company</p>
-              <ul className="mt-6 space-y-4">
+              <ul className="mt-6 space-y-2">
                 <li>
                   <a href="/" className="flex text-base text-black transition-all duration-200 hover:text-blue-600"> Home </a>
                 </li>
@@ -39,6 +39,15 @@ const Footer = () => {
                 </li>
                 <li>
                   <a href="/privacy" className="flex text-base text-black transition-all duration-200 hover:text-blue-600"> Privacy Policies </a>
+                </li>
+                <li>
+                  <a href="/terms" className="flex text-base text-black transition-all duration-200 hover:text-blue-600"> Terms & Conditions</a>
+                </li>
+                <li>
+                  <a href="/return&refund" className="flex text-base text-black transition-all duration-200 hover:text-blue-600"> Return & Refund</a>
+                </li>
+                <li>
+                  <a href="/disclaimer" className="flex text-base text-black transition-all duration-200 hover:text-blue-600"> Disclaimer</a>
                 </li>
               </ul>
             </div>
