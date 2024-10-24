@@ -25,12 +25,12 @@ const OfficeEquipmentCard = ({ imageSrc, heading, subheading, paragraph, route, 
         <p className="text-lg text-gray-700 mb-6 pr-12">{paragraph}</p>
 
         {/* Button with navigation */}
-        <button
+        {/* <button
           className="bg-[#0075B1] text-white py-2 px-4 rounded-lg font-semibold text-lg w-full md:w-32"
           onClick={() => navigate(route)} // Navigate to the specified route
         >
           Read More
-        </button>
+        </button> */}
       </div>
     </div>
   );
