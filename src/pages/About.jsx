@@ -18,19 +18,19 @@ const About = () => {
       {/* About Us Content */}
       <div className="w-[80%] mx-auto my-10 text-center">
         <p className="text-lg text-gray-800 mb-4">
-          At <strong>USA PRINT CARE</strong>, we are dedicated to providing top-notch <strong>printer service and repair</strong> solutions for businesses and individuals alike. Since our establishment in 1997, we have built a reputation as a trusted provider of <strong>printer and copier services</strong>, ensuring that our clients can rely on us for all their printing needs.
+          At <strong>USA PRINT CARE</strong>, we are dedicated to providing top-notch printer service and repair solutions for businesses and individuals alike. Since our establishment in 1997, we have built a reputation as a trusted provider of <strong>printer and copier services</strong>, ensuring that our clients can rely on us for all their printing needs.
         </p>
 
         {/* <img src={pic} alt="Managed Print Services" className="pt-10" /> */}
         
         <h2 className="text-2xl font-bold text-gray-900 mb-6">Your Local Printer Service and Repair Experts</h2>
         <p className="text-lg text-gray-800 mb-4">
-          When searching for <strong>printer service and repair </strong>, look no further than PRINT CARE. Our team of experienced technicians is committed to delivering fast, reliable service tailored to your specific requirements. Whether you need immediate repairs or ongoing maintenance, we are here to help.
+          When searching for printer service and repair, look no further than PRINT CARE. Our team of experienced technicians is committed to delivering fast, reliable service tailored to your specific requirements. Whether you need immediate repairs or ongoing maintenance, we are here to help.
         </p>
 
         <h2 className="text-2xl font-bold text-gray-900 mb-6">Comprehensive Printer Solutions</h2>
         <p className="text-lg text-gray-800 mb-4">
-          Our comprehensive offerings include not just <strong>printer repair</strong>, but also services for <strong>scanner copier printers</strong>. We understand the importance of keeping your equipment running smoothly, which is why we offer preventative maintenance plans to ensure your devices operate at peak performance. If you find yourself in need of a <strong>copier </strong>, we have you covered with a wide range of models to meet your business demands.
+          Our comprehensive offerings include not just printer repair, but also services for scanner copier printers. We understand the importance of keeping your equipment running smoothly, which is why we offer preventative maintenance plans to ensure your devices operate at peak performance. If you find yourself in need of a <strong>copier </strong>, we have you covered with a wide range of models to meet your business demands.
         </p>
 
         <h2 className="text-2xl font-bold text-gray-900 mb-6">Why Choose PRINT CARE?</h2>
