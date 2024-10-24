@@ -25,12 +25,12 @@ const About = () => {
         
         <h2 className="text-2xl font-bold text-gray-900 mb-6">Your Local Printer Service and Repair Experts</h2>
         <p className="text-lg text-gray-800 mb-4">
-          When searching for <strong>printer service and repair near me</strong>, look no further than PRINT CARE. Our team of experienced technicians is committed to delivering fast, reliable service tailored to your specific requirements. Whether you need immediate repairs or ongoing maintenance, we are here to help.
+          When searching for <strong>printer service and repair </strong>, look no further than PRINT CARE. Our team of experienced technicians is committed to delivering fast, reliable service tailored to your specific requirements. Whether you need immediate repairs or ongoing maintenance, we are here to help.
         </p>
 
         <h2 className="text-2xl font-bold text-gray-900 mb-6">Comprehensive Printer Solutions</h2>
         <p className="text-lg text-gray-800 mb-4">
-          Our comprehensive offerings include not just <strong>printer repair</strong>, but also services for <strong>scanner copier printers</strong>. We understand the importance of keeping your equipment running smoothly, which is why we offer preventative maintenance plans to ensure your devices operate at peak performance. If you find yourself in need of a <strong>copier near me</strong>, we have you covered with a wide range of models to meet your business demands.
+          Our comprehensive offerings include not just <strong>printer repair</strong>, but also services for <strong>scanner copier printers</strong>. We understand the importance of keeping your equipment running smoothly, which is why we offer preventative maintenance plans to ensure your devices operate at peak performance. If you find yourself in need of a <strong>copier </strong>, we have you covered with a wide range of models to meet your business demands.
         </p>
 
         <h2 className="text-2xl font-bold text-gray-900 mb-6">Why Choose PRINT CARE?</h2>
@@ -42,7 +42,7 @@ const About = () => {
         </ul>
 
         <p className="text-lg text-gray-800 mb-4">
-          If you're looking for a reliable <strong>printer near me</strong>, or need assistance with <strong>copier services</strong>, reach out to us today. At USA PRINT CARE, we are committed to simplifying your printer management and enhancing your productivity.
+          If you're looking for a reliable <strong>printer </strong>, or need assistance with <strong>copier services</strong>, reach out to us today. At USA PRINT CARE, we are committed to simplifying your printer management and enhancing your productivity.
         </p>
 
         <h2 className="text-2xl font-bold text-gray-900 mb-6">Get in Touch</h2>
