@@ -76,9 +76,9 @@ const Services = () => {
         <div className="flex flex-col items-center justify-center w-[80%] mx-auto my-10">
           <h2 className="text-3xl font-bold text-gray-900 mb-6 mt-16 text-center">Need Our Services?</h2>
           <p className="text-center text-lg text-gray-700 mb-6">Contact us today and let us help you manage your printing needs effectively.</p>
-          <button className="px-6 py-2 bg-[#0075B1] text-white font-semibold rounded-md hover:bg-[#005F8C] transition">
+{/*           <button className="px-6 py-2 bg-[#0075B1] text-white font-semibold rounded-md hover:bg-[#005F8C] transition">
             Get in Touch
-          </button>
+          </button> */}
         </div>
       </div>
 
