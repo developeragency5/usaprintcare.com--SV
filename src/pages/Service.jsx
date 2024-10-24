@@ -65,7 +65,7 @@ const Services = () => {
         <section className="bg-gray-100 p-10 my-10 rounded-lg shadow-md w-[80%] mx-auto">
           <h2 className="text-3xl font-bold text-gray-900 mb-6 text-center">Our Expertise</h2>
           <p className="text-gray-700 mb-4">
-            At USAPRINT Repair, we specialize in providing comprehensive <strong>printer service and repair</strong> solutions tailored to meet the needs of businesses of all sizes. With over two decades of experience, we have built a reputation for excellence in <strong>printer repair</strong>, supply management, and customer support.
+            At USA PRINT CARE, we specialize in providing comprehensive <strong>printer service and repair</strong> solutions tailored to meet the needs of businesses of all sizes. With over two decades of experience, we have built a reputation for excellence in <strong>printer repair</strong>, supply management, and customer support.
           </p>
           <p className="text-gray-700 mb-4">
             Our team consists of highly skilled technicians who are dedicated to ensuring your <strong>printer</strong> and <strong>copier</strong> equipment operates smoothly and efficiently. We are committed to delivering exceptional service and support to our clients, making sure their printing operations are never interrupted.
