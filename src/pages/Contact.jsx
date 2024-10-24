@@ -1,4 +1,4 @@
-import React from 'react';
+ import React from 'react';
 import PreNavBar from '../Components/PreNavBar';
 import Navbar from '../Components/Navbar';
 import { MapPinIcon, PhoneIcon, EnvelopeIcon, GlobeAltIcon, ClockIcon, PrinterIcon } from '@heroicons/react/24/outline';
@@ -45,7 +45,7 @@ const Contact = () => {
         <ContactCard 
           icon={<GlobeAltIcon className="w-12 h-12 text-[#0075B1]" />}
           title="Website"
-          detail="www.usaprintreapair.com"
+          detail="www.usaprintcare.com"
         />
       </div>
 
