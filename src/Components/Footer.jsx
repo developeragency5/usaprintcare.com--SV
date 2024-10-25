@@ -9,7 +9,7 @@ const Footer = () => {
           <div className="grid grid-cols-2 md:col-span-3 lg:grid-cols-6 gap-y-16 gap-x-12">
             <div className="col-span-2 md:col-span-3 lg:col-span-2 lg:pr-8">
               <p className="text-base leading-relaxed text-gray-600 mt-7">
-              At USA PRINT CARE, we specialize in top-notch printer service and repair near you. Whether you need assistance with your printer near me or a reliable scanner copier printer, our expert technicians are ready to help. Trust us for all your copier near me needs, ensuring your printing operations run smoothly and efficiently.
+              At USA PRINT CARE, we specialize in top-notch printer service and repair near you. Whether you need assistance with your printer  or a reliable scanner copier printer, our expert technicians are ready to help. Trust us for all your copier  needs, ensuring your printing operations run smoothly and efficiently.
               </p>
              
 
