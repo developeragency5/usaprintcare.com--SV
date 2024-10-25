@@ -6,7 +6,7 @@ const ComponentName = () => {
     <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="text-center">
             <h2 className="text-3xl font-bold leading-tight text-gray-900 sm:text-4xl xl:text-5xl font-pj">Make every step user-centric</h2>
-            <p className="mt-4 text-base leading-7 text-gray-600 sm:mt-8 font-pj">At USA PRINT CARE, we provide exceptional printer service and repair near you. Our dedicated team is here to meet all your printing needs!
+            <p className="mt-4 text-base leading-7 text-gray-600 sm:mt-8 font-pj">At USA PRINT CARE, we provide exceptional printer service and repair. Our dedicated team is here to meet all your printing needs!
 
 </p>
         </div>
@@ -31,7 +31,7 @@ const ComponentName = () => {
                     <path d="M28 1H37V10" stroke="#161616" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
                 </svg>
                 <h3 className="mt-12 text-xl font-bold text-[#0075B1] font-pj">PRINTER REPAIR</h3>
-                <p className="mt-5 text-base text-gray-600 font-pj">Looking for printer repair near you? Our certified technicians are ready to provide fast and efficient repair services to minimize downtime.
+                <p className="mt-5 text-base text-gray-600 font-pj">Looking for printer repair? Our certified technicians are ready to provide fast and efficient repair services to minimize downtime.
 
 </p>
             </div>
