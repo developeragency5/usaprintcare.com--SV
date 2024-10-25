@@ -34,6 +34,56 @@ const OfficeEquipmentCard = ({ imageSrc, heading, subheading, paragraph, route, 
   );
 };
 
+// Contact Form Component
+const ContactForm = () => {
+  return (
+    <div className="max-w-xl mx-auto pt-12 bg-white  rounded-lg">
+      <h2 className="text-3xl font-semibold text-center mb-8">Send Us a Message</h2>
+      <form>
+        <div className="mb-4">
+          <label className="block text-gray-700 text-sm font-bold mb-2">Name</label>
+          <input
+            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+            type="text"
+            placeholder="Your Name"
+          />
+        </div>
+        <div className="mb-4">
+          <label className="block text-gray-700 text-sm font-bold mb-2">Email</label>
+          <input
+            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+            type="email"
+            placeholder="Your Email"
+          />
+        </div>
+        <div className="mb-4">
+          <label className="block text-gray-700 text-sm font-bold mb-2">Subject</label>
+          <input
+            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+            type="text"
+            placeholder="Subject"
+          />
+        </div>
+        <div className="mb-4">
+          <label className="block text-gray-700 text-sm font-bold mb-2">Message</label>
+          <textarea
+            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+            placeholder="Your Message"
+          ></textarea>
+        </div>
+        <div className="text-center">
+          <button
+            className="bg-[#0075B1] text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+            type="submit"
+          >
+            Send Message
+          </button>
+        </div>
+      </form>
+    </div>
+  );
+};
+
 // Testimonial Banner Component
 const TestimonialBanner = () => {
   return (
@@ -76,6 +126,9 @@ const ContactMeBanner = () => {
 const App = () => {
   return (
     <div className="p-8 space-y-20">
+      {/* Contact Form at the top */}
+      <ContactForm />
+
       {/* First Card - Office Equipment */}
       <OfficeEquipmentCard
         imageSrc={officeEquipImage}
