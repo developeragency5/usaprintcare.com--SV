@@ -136,7 +136,7 @@ const App = () => {
         subheading="Equipment"
         paragraph={
           <>
-            <p>Looking for office equipment near you? We provide a variety of reliable copiers, scanners, and multifunction printers to meet your needs.</p>
+            <p>Looking for office equipment ? We provide a variety of reliable copiers, scanners, and multifunction printers to meet your needs.</p>
             <p>Whether you need new equipment or maintenance services, we are your local experts in office solutions.</p>
           </>
         }
@@ -154,7 +154,7 @@ const App = () => {
         paragraph={
           <>
             <p>Our printer service and repair offerings are designed to keep your machines running efficiently.</p>
-            <p>Whether you need help with a printer near you or require urgent repairs, our experienced technicians are ready to assist you.</p>
+            <p>Whether you need help with a printer or require urgent repairs, our experienced technicians are ready to assist you.</p>
           </>
         }
         route="/contact" // Define the route for this card
