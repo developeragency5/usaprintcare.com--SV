@@ -39,7 +39,7 @@ function App() {
         <Route path="/privacy" element={<Privacy/>} />
         <Route path="/return&refund" element={<RR/>} />
         <Route path="/disclaimer" element={<Disclaimer/>} />
-        <Route path="/experts" element={<Experts/>} />
+        <Route path="/connect" element={<Experts/>} />
         <Route path="/experts" element={<Footer1/>} />
 
         {/* <Route path="/privayPolicies" element={<PrivacyPolicy/>} /> */}
