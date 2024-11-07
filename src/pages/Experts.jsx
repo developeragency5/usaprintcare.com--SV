@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router';
 import './Experts.css'; 
 import backgroundImage from '../assets/Chat.jpeg'; 
-import PreNavBar from "../Components/PreNavBar";
 import Footer1 from "../pages/Footer1";
 
 
 const CustomerService = () => {
+    const navigate = useNavigate();
   const [jivoChatReady, setJivoChatReady] = useState(false);
 
   useEffect(() => {
@@ -42,7 +43,14 @@ const CustomerService = () => {
 
   return (
     <>
-    <PreNavBar></PreNavBar>
+    <header className="bg-[#0075B1] p-4 flex flex-col sm:flex-row justify-between items-center">
+      <h1
+        className="text-white text-2xl sm:text-3xl font-bold cursor-pointer mb-2 sm:mb-0"
+        onClick={() => navigate('/')} // Navigate to home page when clicked
+      >
+        USA PRINT CARE
+      </h1>
+    </header>
       <div className="customer-service-container" style={{ backgroundImage: `url(${backgroundImage})` }}>
         <div className="content">
           <h3>Looking for more than just a repair?</h3>
