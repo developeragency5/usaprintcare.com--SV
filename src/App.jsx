@@ -13,6 +13,8 @@ import Privacy from './Components/Privacy';
 import Terms from './Components/Terms';
 import RR from './Components/RR';
 import Disclaimer from './Components/Disclaimer';
+import Experts from './pages/Experts';
+import Footer1 from './pages/Footer1'
 
 // import PrivacyPolicy from './pages/PrivacyPolicy';
 
@@ -37,6 +39,8 @@ function App() {
         <Route path="/privacy" element={<Privacy/>} />
         <Route path="/return&refund" element={<RR/>} />
         <Route path="/disclaimer" element={<Disclaimer/>} />
+        <Route path="/experts" element={<Experts/>} />
+        <Route path="/experts" element={<Footer1/>} />
 
         {/* <Route path="/privayPolicies" element={<PrivacyPolicy/>} /> */}
       </Routes>
